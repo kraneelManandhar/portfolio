@@ -1,9 +1,6 @@
-h1{
-	display: inline;
-}
-
 #right,img{
 	float: right;
+	display: inline;
 }
 
 img {
@@ -20,6 +17,8 @@ footer{
 }
 
 h1{
-	border-bottom: 40rem;
-	display: inline;
+	margin: auto;
+	width: 10%;
+	border: 3px ;
+	padding: 10px;
 }
