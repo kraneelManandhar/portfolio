@@ -7,13 +7,19 @@ h1{
 }
 
 img {
-  border-radius: 20%;
+  border-radius: 30%;
 }
 
 *{
-	background-color: #72caed;
+	background-color: #FFF8DE;
 }
 
 footer{
 	padding-top: 14rem;
+	color: #8CA9FF;
+}
+
+h1{
+	border-bottom: 40rem;
+	display: inline;
 }
