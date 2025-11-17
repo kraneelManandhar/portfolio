@@ -1,0 +1,19 @@
+h1{
+	display: inline;
+}
+
+#right,img{
+	float: right;
+}
+
+img {
+  border-radius: 20%;
+}
+
+*{
+	background-color: #72caed;
+}
+
+footer{
+	padding-top: 14rem;
+}
