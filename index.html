@@ -1,63 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Portfolio</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
 
-    <body>
-        <header>
-            <main>
-                    <h1>Portfolio</h1>
-                
-                <nav>
-                    <div id = "right">
-                        <a href="">Home</a>
-                        <a href="">Projects</a>
-                        <a href="">About</a>
-                        <a href="">Contacts</a>
-                    </div>
-                </nav>
-            </main>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kraneel | Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
-        <h2>Hello</h2>
-        <img src="./images/toji.png" alt="Image of myself" height="300 rem">
 
-        <h3>I am the developer/designer of this site.Wanna learn more about me,</h3>
+<body>
+    <header>
+        <nav id="navbar">
+            <h1 class="logo">Portfolio</h1>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-        <div> <a href="" >Learn more </a></div>
+    <main>
+        <section id="hero">
+            <img src="./images/my.jpg" alt="Image of myself" class="profile-img">
 
-            <p>
-                <b>My expretise includes:</b>
-                <ul>
-                    <li>Backend</li>
-                    <li>Express js</li>
-                    <li>Node js</li>
-                </ul>
-
-                <h3>Check out my projects on </h3> <a href="https://github.com/kraneelManandhar"><b>Projects</b></a>
+            <h1>Hello, I’m <span class="highlight">Kraneel Manandhar</span></h1>
+            <p class="subtitle">
+                A backend developer focused on Node.js, Express.js, and building real-world projects.
             </p>
-        
-        <footer>
-            <form> 
-                <label for="name">Name:</label> <input type="text" id="name" placeholder="Enter your name" required><br>
 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" placeholder="Enter your email" required><br>
+            <a href="#projects" class="btn primary-btn">View My Projects</a>
+        </section>
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" placeholder="Your message..." required></textarea><br>
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill">Node.js</div>
+                <div class="skill">Express.js</div>
+                <div class="skill">Backend Development</div>
+                <div class="skill">MongoDB / MySQL</div>
+                <div class="skill">REST API</div>
+                <div class="skill">Git & GitHub</div>
+            </div>
+        </section>
 
-                <button type="submit">Send Message</button>
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Hospital Patient Record System</h3>
+                <p>
+                    A database-driven system designed using SQL, stored procedures, triggers, and a 
+                    complete ER design. Includes transaction support and documentation.
+                </p>
+                <a href="https://github.com/kraneelManandhar" target="_blank" class="btn">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>
+                    Weather application built using JavaScript, PHP, and MySQL with caching via 
+                    localStorage. Updates weather data every 2 hours.
+                </p>
+                <a href="https://github.com/kraneelManandhar" target="_blank" class="btn">View Project</a>
+            </div>
+
+            <div class="project">
+                <h3>Java Projects Collection</h3>
+                <p>
+                    A collection of Java OOP, inheritance, classes, objects, exceptions, and beginner-friendly programs.
+                </p>
+                <a href="https://github.com/kraneelManandhar/Java_Projects" target="_blank" class="btn">View Project</a>
+            </div>
+
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm an IT student passionate about backend development, automation, and system design.
+                I enjoy building projects that solve real-world problems, and I'm currently exploring 
+                Node.js, databases, and cloud technologies. I love learning, improving, and taking on challenges.
+            </p>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your message..." required></textarea>
+
+                <button type="submit" class="btn primary-btn">Send Message</button>
             </form>
+        </section>
+    </main>
 
-            <p> &copy;Kraneel Mananadhar 2025 </p>
-            Find me on,
-            <a href="https://github.com/kraneelManandhar"><b>Github</b></a>
-            <a href="https://www.linkedin.com/in/kraneel-manandhar-0a3aa335a/"><b>LinkedIn</b></a>
-        </footer>
-    </body>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://github.com/kraneelManandhar" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/kraneel-manandhar-0a3aa335a/" target="_blank">LinkedIn</a>
+
+        <p>&copy; 2025 Kraneel Manandhar</p>
+    </footer>
+
+</body>
+
 </html>
