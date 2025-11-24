@@ -101,12 +101,13 @@ p{
 	font-family: sans-serif;
 }
 
-#contact form {
+#form {
   width: 85%;
   max-width: 600px;
   margin: auto;
   display: flex;
   flex-direction: column;
+  background: transparent;
 }
 
 footer {
@@ -138,9 +139,6 @@ footer {
     font-size: 15px;
 }
 
-#projects {
-    padding: 50px 20px;
-}
 
 .btn {
     display: inline-block;
