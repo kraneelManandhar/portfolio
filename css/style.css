@@ -60,56 +60,12 @@ ul{
 	border-radius: 50%;
 }
 
-.btn:hover {
-    background-color: #000;
-}
-
-.primary-btn {
-    background-color: #007bff;
-}
-
-.primary-btn:hover {
-    background-color: #0056b3;
-}
-
-#skills {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.skill-list {
+#navbar {
+    width: 90%;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.skill {
-    background: #007bff;
-    color: white;
-    padding: 10px 18px;
-    border-radius: 20px;
-    font-size: 15px;
-}
-
-#projects {
-    padding: 50px 20px;
-}
-
-#projects h2 {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.project {
-    background: white;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 700px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1{
