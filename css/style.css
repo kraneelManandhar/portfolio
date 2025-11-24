@@ -1,14 +1,63 @@
-#right,img{
-	float: right;
-	display: inline;
+*{
+	color: white;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	padding:30px;
+	border: 2px transparent ;
+}
+
+h1{
+	margin: 0;
+}
+
+h2{
+	justify-content: center;
+}
+
+#right-nav{
+	display: flex;
+	justify-content: flex-end;
+	gap: 20px;
+}
+
+.highlight{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 30px 30px 40px;
+}
+
+#intro{
+	display: flex;
+	flex-direction: column;
+	padding: 70px 30px 30px 40px;
+}
+
+#img-wrapper{
+  display: flex;
+  justify-content: space-between;
 }
 
 img {
-  border-radius: 30%;
+  border-radius: 80%;
+  border-color: white;
+  float: right;
 }
 
-*{
-	background-color: #FFF8DE;
+.skill-list{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+ul{
+	border-color: white;
+	border-radius: 50%;
 }
 
 footer{
@@ -17,12 +66,88 @@ footer{
 }
 
 h1{
-	margin: auto;
-	width: 10%;
-	border: 3px ;
-	padding: 10px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#video{
+	position: fixed;
+	z-index: -1;
+	right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+}
+
+input,textarea {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 10rem;
+  outline: none;
+}
+
+button{
+	background-color: transparent;
+	border-color: white;
+	border-radius: 30%;
 }
 
 p{
 	font-family: sans-serif;
+}
+
+#contact form {
+  width: 85%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #111;
+  color: white;
+  margin-top: 30px;
+}
+
+#skills {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    background: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#projects {
+    padding: 50px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    transition: 0.2s;
+    font-weight: bold;
 }
