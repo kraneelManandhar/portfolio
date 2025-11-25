@@ -4,98 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kraneel | Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 
-<body>
-    <header>
-        <nav id="navbar">
-            <h1 class="logo">Portfolio</h1>
-            <div class="nav-links">
-                <a href="#hero">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+    <body>
+        <header>
+            <h1>Portfolio</h1>
+            
+            <nav>
+                <div id = "right-nav">
+                    <a href="">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#project">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="footer">Contacts</a>
+                </div>
+            </nav>
+        </header>
+
+            <video autoplay muted loop id="video">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div id="image-wrapper">
+            <img src="./images/me.png" alt="Image of myself" height="300 rem">
+
+                <div id="real-body">
+                <div id="intro">
+                    <h1>Hello, I’m <span class="highlight"> Kraneel Manandhar</span></h1>
+                    <p class="subtitle">
+                        A backend developer focused on Node.js, Express.js, and building real-world projects.
+                    </p>
+                </div>
+
             </div>
-        </nav>
-    </header>
+        
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <div class="skill-list">
+                        <div class="skill">Node.js</div>
+                        <div class="skill">Express.js</div>
+                        <div class="skill">Backend Development</div>
+                        <div class="skill">MongoDB / MySQL</div>
+                        <div class="skill">REST API</div>
+                        <div class="skill">Git & GitHub</div>
+                    </div>
+                </section>
 
-    <main>
-        <section id="hero">
-            <img src="./images/my.jpg" alt="Image of myself" class="profile-img">
 
-            <h1>Hello, I’m <span class="highlight">Kraneel Manandhar</span></h1>
-            <p class="subtitle">
-                A backend developer focused on Node.js, Express.js, and building real-world projects.
-            </p>
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project">
+                            <h3>Hospital Patient Record System</h3>
+                            <p>
+                                A database-driven system designed using SQL, stored procedures, triggers, and a 
+                                complete ER design. Includes transaction support and documentation.
+                            </p>
+                            <a href="https://github.com/kraneelManandhar" target="_blank" class="btn">View Project</a>
+                        </div>
 
-            <a href="#projects" class="btn primary-btn">View My Projects</a>
-        </section>
+                        <div class="project">
+                            <h3>Weather App</h3>
+                            <p>
+                                Weather application built using JavaScript, PHP, and MySQL with caching via 
+                                localStorage. Updates weather data every 2 hours.
+                            </p>
+                            <a href="https://github.com/kraneelManandhar" target="_blank" class="btn">View Project</a>
+                        </div>
 
-        <!-- ===== SKILLS SECTION ===== -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skill-list">
-                <div class="skill">Node.js</div>
-                <div class="skill">Express.js</div>
-                <div class="skill">Backend Development</div>
-                <div class="skill">MongoDB / MySQL</div>
-                <div class="skill">REST API</div>
-                <div class="skill">Git & GitHub</div>
-            </div>
-        </section>
+                        <div class="project">
+                            <h3>Java Projects Collection</h3>
+                            <p>
+                                A collection of Java OOP, inheritance, classes, objects, exceptions, and beginner-friendly programs.
+                            </p>
+                            <a href="https://github.com/kraneelManandhar/Java_Projects" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </section>
 
-        <!-- ===== PROJECTS SECTION ===== -->
-        <section id="projects">
-            <h2>Projects</h2>
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm an IT student passionate about backend development, automation, and system design.
+                        I enjoy building projects that solve real-world problems, and I'm currently exploring 
+                        Node.js, databases, and cloud technologies. I love learning, improving, and taking on challenges.
+                    </p>
+                </section>
 
-            <div class="project">
-                <h3>Hospital Patient Record System</h3>
-                <p>
-                    A database-driven system designed using SQL, stored procedures, triggers, and a 
-                    complete ER design. Includes transaction support and documentation.
-                </p>
-                <a href="https://github.com/kraneelManandhar" target="_blank" class="btn">View Project</a>
-            </div>
 
-            <div class="project">
-                <h3>Weather App</h3>
-                <p>
-                    Weather application built using JavaScript, PHP, and MySQL with caching via 
-                    localStorage. Updates weather data every 2 hours.
-                </p>
-                <a href="https://github.com/kraneelManandhar" target="_blank" class="btn">View Project</a>
-            </div>
 
-            <div class="project">
-                <h3>Java Projects Collection</h3>
-                <p>
-                    A collection of Java OOP, inheritance, classes, objects, exceptions, and beginner-friendly programs.
-                </p>
-                <a href="https://github.com/kraneelManandhar/Java_Projects" target="_blank" class="btn">View Project</a>
-            </div>
+                <div> <a href="" >Learn more </a></div>
 
-        </section>
+                    <p>
+                        <b>My expretise includes:</b>
+                        <ul>
+                            <li>Backend</li>
+                            <li>Express js</li>
+                            <li>Node js</li>
+                        </ul>
 
-        <!-- ===== ABOUT SECTION ===== -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I'm an IT student passionate about backend development, automation, and system design.
-                I enjoy building projects that solve real-world problems, and I'm currently exploring 
-                Node.js, databases, and cloud technologies. I love learning, improving, and taking on challenges.
-            </p>
-        </section>
-
-        <!-- ===== CONTACT SECTION ===== -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Enter your name" required>
+                        <h3>Check out my projects on </h3> <a href="https://github.com/kraneelManandhar"><b>Projects</b></a>
+                    </p>
+                </div>
+        
+        <footer id="form">
+            <form> 
+                <label for="name">Name:</label> <input type="text" id="name" placeholder="Enter your name" required><br>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" placeholder="Enter your email" required>
@@ -105,10 +123,10 @@
 
                 <button type="submit" class="btn primary-btn">Send Message</button>
             </form>
+        </footer>
         </section>
     </main>
 
-    <!-- ===== FOOTER ===== -->
     <footer>
         <p>Connect with me:</p>
         <a href="https://github.com/kraneelManandhar" target="_blank">GitHub</a> |
