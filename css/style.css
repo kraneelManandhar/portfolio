@@ -244,3 +244,237 @@ h3 {
 .project .btn:hover {
     background-color: #0056b3;
 }
+
+#hamburger {
+    display: none;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* ===============================
+   TABLETS & SMALL LAPTOPS
+   =============================== */
+@media (max-width: 1024px) {
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #img-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  img {
+    max-width: 300px;
+    margin: auto;
+    float: none;
+  }
+
+  .skill-list {
+    gap: 10px;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+
+/* ===============================
+   MEDIUM DEVICES (TABLETS / BIG PHONES)
+   =============================== */
+@media (max-width: 768px) {
+
+  #navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #intro {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #img-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  .skill-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  #right-nav {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* Show hamburger */
+  #hamburger {
+    display: block;
+  }
+
+  /* When nav is active */
+  #right-nav.active {
+    display: flex;
+  }
+}
+/* ===============================
+   TABLETS & SMALL LAPTOPS
+   =============================== */
+@media (max-width: 1024px) {
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #img-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  img {
+    max-width: 300px;
+    margin: auto;
+    float: none;
+  }
+
+  .skill-list {
+    gap: 10px;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+
+/* ===============================
+   MEDIUM DEVICES (TABLETS / BIG PHONES)
+   =============================== */
+@media (max-width: 768px) {
+
+  #navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #intro {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #img-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  .skill-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    width: 90%;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 0;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  #intro {
+    padding: 20px 10px;
+  }
+
+  img {
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+  }
+
+  .skill {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .project {
+    padding: 1rem;
+  }
+
+  .project p {
+    font-size: 0.9rem;
+  }
+
+  form {
+    width: 95%;
+    padding: 10px;
+  }
+
+  input, textarea {
+    padding: 8px;
+  }
+}
