@@ -16,16 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Message sent successfully!");
         form.reset();
     });
-});
 
-const btn = document.querySelector(".btn");
-
-btn.addEventListener("click", () => {
-    window.location.href = "https://www.github.com/kraneelManandhar";
-});
-
-
-document.addEventListener('DOMContentLoaded', () => {
+    
     const hamburger = document.getElementById('hamburger');
     const nav = document.getElementById('right-nav');
 
@@ -33,4 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
       nav.classList.toggle('active');
       hamburger.textContent = nav.classList.contains('active') ? '×' : '☰';
     });
+
+    const btn = document.querySelector(".btn");
+
+    btn.addEventListener("click", () => {
+        window.location.href = "https://www.github.com/kraneelManandhar";
+    });
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
 });
